@@ -1,0 +1,46 @@
+body{font-family:arial;font-size:13px;line-height:1.6;padding:50px}
+a{color:#a22}
+a.button{color:#fff;background:#a22;border-radius:3px;text-decoration:none;padding:8px 15px}
+dl.accordion{margin-bottom:15px;width:95%}
+.accordion dd{width:100%;margin-bottom:-1px;border:1px solid #ccc;border-top:none;float:left;background:#fff;border-radius:0 0 3px 3px;display:none;padding:15px}
+.accordion dd img{float:right;box-shadow:0 0 5px #ccc;margin:3px 3px 3px 15px;padding:7px}
+.accordion dt a{display:inline-block;cursor:pointer;width:100%;border:1px solid #ccc;background:url(bg_gray.gif) 0 0 repeat-x;margin-bottom:-1px;text-decoration:none!important;padding:10px 15px}
+.accordion dt a.green{background:#2ecc71;color:#fff}
+.accordion dt a.green:hover{background:#27ae60;color:#fff}
+.accordion dt a.blue{background:#3498db;color:#fff}
+.accordion dt a.blue:hover{background:#2980b9;color:#fff}
+.accordion dt a.red{background:#e74c3c;color:#fff}
+.accordion dt a.red:hover{background:#c0392b;color:#fff}
+.accordion dt a.light_black{background:#34495e;color:#fff}
+.accordion dt a.light_black:hover{background:#2c3e50;color:#fff}
+.accordion dt a.orange{background:#e67e22;color:#fff}
+.accordion dt a.orange:hover{background:#d35400;color:#fff}
+.accordion dt a.purple{background:#9b59b6;color:#fff}
+.accordion dt a.purple:hover{background:#8e44ad;color:#fff}
+.accordion dt a.gray{background:#95a5a6;color:#fff}
+.accordion dt a.gray:hover{background:#7f8c8d;color:#fff}
+.accordion dt a.turq{background:#1abc9c;color:#fff}
+.accordion dt a.turq:hover{background:#16a085;color:#fff}
+.accordion dt a:hover,dt a:focus{background:#eee}
+a.deptLink{float:right;width:201px;border:1px solid #ccc;text-align:center;text-decoration:none;margin:2px 0 10px 10px;padding:1px}
+a.deptLink:hover,a.deptLink:focus{border-color:#A02720}
+.accordion dt span{float:right;font-size:90%}
+.accordion p{margin-bottom:8px}
+ul.accordion-menu li:before{content:"\0BB \020"}
+ul.accordion-menu li{list-style-type:none;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;-webkit-transition:all .2s ease-in 0;-moz-transition:all .2s ease-in 0;transition:all .2s ease-in 0;margin:0 0 -1px;padding:5px 0}
+ul.accordion-menu li:hover{background:#f5f5f5;padding-left:5px}
+.label{display:inline;font-size:90%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;text-shadow:none;padding:5px 7px}
+.label[href]:hover,.label[href]:focus{color:#fff;text-decoration:none;cursor:pointer}
+.label:empty{display:none}
+.label-default{background-color:#999}
+.label-default[href]:hover,.label-default[href]:focus{background-color:gray}
+.label-primary{background-color:#428bca}
+.label-primary[href]:hover,.label-primary[href]:focus{background-color:#3071a9}
+.label-success{background-color:#5cb85c}
+.label-success[href]:hover,.label-success[href]:focus{background-color:#449d44}
+.label-info{background-color:#5bc0de}
+.label-info[href]:hover,.label-info[href]:focus{background-color:#31b0d5}
+.label-warning{background-color:#f0ad4e}
+.label-warning[href]:hover,.label-warning[href]:focus{background-color:#ec971f}
+.label-danger{background-color:#d9534f}
+.label-danger[href]:hover,.label-danger[href]:focus{background-color:#c9302c}
