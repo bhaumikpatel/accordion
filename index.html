@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Accordion : Create a cool and simple jQuery accordion." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Accordion</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/bhaumikpatel/accordion">View on GitHub</a>
+
+          <h1 id="project_title">Accordion</h1>
+          <h2 id="project_tagline">Create a cool and simple jQuery accordion.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/bhaumikpatel/accordion/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/bhaumikpatel/accordion/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="accordion" class="anchor" href="#accordion"><span class="octicon octicon-link"></span></a>Accordion</h1>
+
+<p>Create a cool and simple jquery accordion. Lightweight jquery plugin minify 2kb or uncompressed 3kb.</p>
+
+<h2>
+<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a><img src="http://lh5.googleusercontent.com/-8DZSn4H4R_M/UpWh1TnlB-I/AAAAAAAACeU/nSnjDqrcbQo/w817-h394-no/accordion.png" alt="Accordion" title="Accordion">
+</h2>
+
+<h2>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<ul>
+<li><a href="http://jsfiddle.net/lesson8/96g4h/show/">jsFiddle</a></li>
+</ul><h2>
+<a name="basic-usage" class="anchor" href="#basic-usage"><span class="octicon octicon-link"></span></a>Basic Usage</h2>
+
+<p>To add this to your website, simply include the latest jQuery library together with <code>accordion.js</code>, <code>accordion.css</code> into your document's <code>&lt;head&gt;</code> and call the function as follows:</p>
+
+<pre><code>&lt;dl class="accordion"&gt;
+    &lt;dt&gt;&lt;a class="green"&gt;Section &lt;span class="label label-default"&gt;0&lt;/span&gt;&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;
+        &lt;div&gt;
+            &lt;ul class="accordion-menu"&gt;
+                &lt;li&gt;Sub Category&lt;/li&gt;
+                &lt;li&gt;Sub Category&lt;/li&gt;
+                &lt;li&gt;Sub Category&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/dd&gt;
+    &lt;dt&gt;&lt;a class="blue"&gt;Section &lt;span class="label label-primary"&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;
+        &lt;p&gt;
+            Lorem Ipsum is simply dummy text.&lt;/p&gt;
+    &lt;/dd&gt;
+&lt;/dl&gt;
+
+</code></pre>
+
+<blockquote>
+<p><strong>NOTE:</strong> Description list <code>&lt;dl&gt;</code> and <code>&lt;dt&gt;</code> is required for accordion feature defines a term/name in a description list.</p>
+</blockquote>
+
+<h4>
+<a name="-call-accordion" class="anchor" href="#-call-accordion"><span class="octicon octicon-link"></span></a><i></i> Call Accordion</h4>
+
+<pre><code>$('.accordion').accordion({
+    open: false, // First List Open, Default Value: false
+    autoStart: false, // Auto Start, Default Value: false
+    onHoverActive: false, // On Hover Active, Default Value: false
+    slideInterval: 3000, // Expression at specified intervals (in milliseconds) Default Value: 3000
+    duration: 'slow', // The default duration is slow. The strings 'fast' and 'slow'.
+    easing: 'swing', //  An easing function specifies the speed at which the animation progresses.
+    complete: function () { console.log('Complete Event'); } 
+    //If supplied, the complete callback function is fired once the accordion is complete.
+});
+
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Accordion maintained by <a href="https://github.com/bhaumikpatel">bhaumikpatel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
